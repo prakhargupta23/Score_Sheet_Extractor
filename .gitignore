@@ -50,3 +50,6 @@ Frontend/macos/Runner/GoogleService-Info.plist
 Frontend/ios/Runner/GoogleService-Info.plist
 
 Frontend/lib/firebase_options.dart
+
+
+Backend/.env
