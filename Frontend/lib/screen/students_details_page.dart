@@ -38,7 +38,7 @@ class _StudentPersonalDetailsPageState extends State<StudentPersonalDetailsPage>
     setState(() {
       _loading = true;
     });
-    String url = 'http://192.168.36.152:5000';
+    String url = 'http://192.168.1.4:5000';
     final response = await http.post(
       Uri.parse(url),
       body: jsonEncode(
